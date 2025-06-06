@@ -46,13 +46,13 @@ This project analyzes user reviews from the LinkedIn mobile app to uncover user 
 🖼️ Sample Visuals
 
 <p align="center">
-  <img src="Distribution%20of%20Review%20Lengths.jpeg" alt="Distribution of Review Lengths" width="500"/>
+  <img src="images/Distribution%20of%20Review%20Lengths.jpeg" alt="Distribution of Review Lengths" width="500"/>
   <br/>
   <em>Distribution of Review Lengths</em>
 </p>
 
 <p align="center">
-  <img src="Word%20Cloud%20for%20Positive%20Reviews.jpeg" alt="Word Cloud for Positive Reviews" width="500"/>
+  <img src="images/Word Cloud for Positive Reviews.jpeg" alt="Word Cloud for Positive Reviews" width="500"/>
   <br/>
   <em>Word Cloud for Positive Reviews</em>
 </p>
