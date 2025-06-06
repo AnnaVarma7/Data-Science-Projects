@@ -1,81 +1,79 @@
-# 📱 App Reviews Sentiment Analysis
+<h1 align="center">📱 App Reviews Sentiment Analysis</h1>
 
-This project focuses on analyzing user reviews of the LinkedIn mobile app using natural language processing techniques. It provides valuable insights into user sentiment, review behavior, and rating patterns to help businesses and developers prioritize improvements and understand user feedback.
-
----
-
-## 🔍 Project Overview
-
-- **Objective**: Classify reviews into Positive, Negative, or Neutral sentiment categories based on text.
-- **Dataset**: A CSV file containing LinkedIn app reviews and associated user ratings.
-- **Techniques Used**: Text pre-processing, sentiment analysis using TextBlob, data visualization with Seaborn and Matplotlib, and WordCloud generation.
+<p align="center">
+  Understand user sentiment using NLP 💬 | Visualize insights 📊 | Improve app experiences 🚀
+</p>
 
 ---
 
-## 🧰 Tools & Libraries
+## 🔍 About the Project
 
-- Python
-- Pandas
-- Seaborn, Matplotlib
-- TextBlob
-- WordCloud
+This project analyzes user reviews from the LinkedIn mobile app to uncover user sentiments using NLP and data visualization.
 
----
-
-## 🗂️ Key Steps
-
-1. **Data Loading**  
-   Loaded a dataset containing 702 LinkedIn app reviews with user ratings.
-
-2. **Exploratory Data Analysis (EDA)**  
-   - Visualized the distribution of ratings  
-   - Analyzed review lengths  
-   - Generated count plots and histograms  
-
-3. **Sentiment Labeling**  
-   Used **TextBlob** to assign a sentiment (Positive, Neutral, Negative) to each review based on polarity.
-
-4. **Sentiment Analysis**  
-   - Visualized sentiment distribution overall and across ratings  
-   - Explored correlations between review sentiment and star ratings  
-
-5. **Text Analysis**  
-   Created **Word Clouds** for each sentiment class to uncover commonly used words.
+✨ It helps:
+- Developers prioritize features
+- Businesses monitor brand perception
+- Product teams make data-driven decisions
 
 ---
 
-## 📊 Sample Insights
+## 🧰 Tech Stack
 
-- Many 1-star reviews use neutral language, indicating possible UX or functional issues rather than dissatisfaction.
-- Word clouds show positive reviews focus on "useful", "great", and "helpful", while negative ones mention "crash", "slow", and "contact".
-
----
-
-## 🧠 Future Improvements
-
-- Apply VADER or a transformer-based model for more nuanced sentiment classification  
-- Perform topic modeling (LDA) to group reviews by themes  
-- Deploy the model using Streamlit or Flask for interactive analysis
+| Tool | Purpose |
+|------|---------|
+| `Python` | Programming Language |
+| `Pandas` | Data Handling |
+| `Seaborn`, `Matplotlib` | Data Visualization |
+| `TextBlob` | Sentiment Analysis |
+| `WordCloud` | Visual Text Analysis |
 
 ---
 
-## ✨ Fun Fact
+## 📊 Key Features
 
-Even with low ratings, the app’s users often express themselves in relatively neutral terms—a reminder that numbers alone don’t tell the full story!
-
----
-
-## 📁 Files
-
-- `linkedin-reviews.csv` – Dataset of LinkedIn reviews  
-- `app_review_sentiment_analysis.ipynb` – Full notebook with code, analysis, and visualizations  
+✔️ Load and explore review data  
+✔️ Visualize rating distributions  
+✔️ Classify sentiment using polarity scores  
+✔️ Compare sentiment vs rating  
+✔️ Generate beautiful word clouds  
 
 ---
 
-## 🚀 Run It Yourself
+## ✨ Highlights
 
-```bash
-pip install pandas matplotlib seaborn textblob wordcloud
-python -m textblob.download_corpora
+- 🔬 **702 LinkedIn reviews** analyzed
+- 🧠 Sentiments: `Positive`, `Neutral`, `Negative`
+- 🎨 Word Clouds for visual insights
+- 📈 Clear plots showing rating-sentiment relationships
 
+---
 
+## 🖼️ Sample Visuals
+
+<p align="center">
+  <img src="images/rating_distribution.png" width="500"/>
+  <br/>
+  <em>Distribution of App Ratings</em>
+</p>
+
+<p align="center">
+  <img src="images/sentiment_wordcloud_positive.png" width="500"/>
+  <br/>
+  <em>Positive Review Word Cloud</em>
+</p>
+
+---
+
+## 💡 How It Works
+
+```python
+from textblob import TextBlob
+
+def textblob_sentiment_analysis(review):
+    polarity = TextBlob(review).sentiment.polarity
+    if polarity > 0.1:
+        return 'Positive'
+    elif polarity < -0.1:
+        return 'Negative'
+    else:
+        return 'Neutral'
