@@ -4,7 +4,6 @@
   Understand user sentiment using NLP 💬 | Visualize insights 📊 | Improve app experiences 🚀
 </p>
 
----
 
 🔍 About the Project
 
@@ -15,7 +14,6 @@ This project analyzes user reviews from the LinkedIn mobile app to uncover user 
 - Businesses monitor brand perception
 - Product teams make data-driven decisions
 
----
 
 🧰 Tech Stack
 
@@ -27,7 +25,6 @@ This project analyzes user reviews from the LinkedIn mobile app to uncover user 
 | `TextBlob` | Sentiment Analysis |
 | `WordCloud` | Visual Text Analysis |
 
----
 
 📊 Key Features
 
@@ -37,7 +34,6 @@ This project analyzes user reviews from the LinkedIn mobile app to uncover user 
 ✔️ Compare sentiment vs rating  
 ✔️ Generate beautiful word clouds  
 
----
 
 ✨ Highlights
 
@@ -46,12 +42,11 @@ This project analyzes user reviews from the LinkedIn mobile app to uncover user 
 - 🎨 Word Clouds for visual insights  
 - 📈 Clear plots showing rating-sentiment relationships  
 
----
 
 🖼️ Sample Visuals
 
 <p align="center">
-  <img src="Distribution%20of%20Review%20Lengths.jpeg" width="500"/>
+  ![Distribution of Review Lengths](images/Distribution of Review Lengths.jpeg)
   <br/>
   <em>Distribution of Review Lengths</em>
 </p>
