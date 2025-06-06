@@ -6,7 +6,7 @@
 
 ---
 
-## 🔍 About the Project
+🔍 About the Project
 
 This project analyzes user reviews from the LinkedIn mobile app to uncover user sentiments using NLP and data visualization.
 
@@ -17,7 +17,7 @@ This project analyzes user reviews from the LinkedIn mobile app to uncover user 
 
 ---
 
-## 🧰 Tech Stack
+🧰 Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -29,7 +29,7 @@ This project analyzes user reviews from the LinkedIn mobile app to uncover user 
 
 ---
 
-## 📊 Key Features
+📊 Key Features
 
 ✔️ Load and explore review data  
 ✔️ Visualize rating distributions  
@@ -39,32 +39,32 @@ This project analyzes user reviews from the LinkedIn mobile app to uncover user 
 
 ---
 
-## ✨ Highlights
+✨ Highlights
 
-- 🔬 **702 LinkedIn reviews** analyzed
-- 🧠 Sentiments: `Positive`, `Neutral`, `Negative`
-- 🎨 Word Clouds for visual insights
-- 📈 Clear plots showing rating-sentiment relationships
-
----
-
-## 🖼️ Sample Visuals
-
-<p align="center">
-  <img src="images/rating_distribution.png" width="500"/>
-  <br/>
-  <em>Distribution of App Ratings</em>
-</p>
-
-<p align="center">
-  <img src="images/sentiment_wordcloud_positive.png" width="500"/>
-  <br/>
-  <em>Positive Review Word Cloud</em>
-</p>
+- 🔬 **702 LinkedIn reviews** analyzed  
+- 🧠 Sentiments: `Positive`, `Neutral`, `Negative`  
+- 🎨 Word Clouds for visual insights  
+- 📈 Clear plots showing rating-sentiment relationships  
 
 ---
 
-## 💡 How It Works
+🖼️ Sample Visuals
+
+<p align="center">
+  <img src="Distribution%20of%20Review%20Lengths.jpeg" width="500"/>
+  <br/>
+  <em>Distribution of Review Lengths</em>
+</p>
+
+<p align="center">
+  <img src="Word%20Cloud%20for%20Positive%20Reviews.jpeg" width="500"/>
+  <br/>
+  <em>Word Cloud for Positive Reviews</em>
+</p>
+
+---
+
+💡 How It Works
 
 ```python
 from textblob import TextBlob
