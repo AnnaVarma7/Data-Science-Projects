@@ -1,0 +1,45 @@
+📉 Inflation Impact Analysis
+This project analyzes the relationship between inflation rates and exchange rate fluctuations (INR/USD), comparing historical trends for India and the United States from 2003 onward. It investigates the correlation between inflation and currency depreciation and examines the validity of Purchasing Power Parity (PPP) theory.
+
+🎯 Objective
+To explore how inflation rates in India and the US affect the INR/USD exchange rate and evaluate if the exchange rate trends align with economic theory, especially PPP.
+
+🧰 Tools & Libraries
+Python (Pandas, Plotly, NumPy)
+
+Plotly Graph Objects – Interactive time-series and comparative visualizations
+
+📊 Data Sources
+Inflation Data: World Bank and IMF estimates for India and the US
+Exchange Rate Data: Historical INR to USD average exchange rates (2003–2024)
+
+🔍 Key Analyses
+1. Trend Analysis
+Visualized inflation trends (India vs. US) and the exchange rate.
+Found: The INR depreciates over time, while India’s inflation is more volatile than the US.
+
+2. Correlation Analysis
+Metric Pair	Correlation
+Exchange Rate vs India Inflation	-0.34
+Exchange Rate vs US Inflation	0.24
+India vs US Inflation Rates	-0.12
+Weak correlation suggests inflation alone doesn't explain exchange rate movement.
+
+3. Comparative Analysis
+Compared all three metrics together.
+Found divergence post-2015 where the exchange rate rises despite low inflation, hinting at external factors like trade balance, capital flows, and policy shifts.
+
+4. PPP-Based Exchange Rate Estimation
+Applied Relative PPP formula to estimate expected INR/USD exchange rates.
+Found that actual exchange rates are consistently lower than PPP-predicted values, implying:
+INR didn’t depreciate as much as inflation differences suggest.
+Exchange rate dynamics are influenced by more than inflation—monetary policy, interest rates, global market trust, etc.
+
+🧠 Conclusion
+Inflation plays a partial role in shaping INR/USD trends.
+Purchasing Power Parity holds at times but diverges over longer periods.
+To fully understand currency dynamics, one must consider multi-factor influences, including:
+Interest rate differentials
+Foreign investment
+Trade balance
+Political and economic stability
