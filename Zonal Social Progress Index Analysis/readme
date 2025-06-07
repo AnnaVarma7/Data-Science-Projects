@@ -1,0 +1,46 @@
+🌍 Zonal Social Progress Index (SPI) Analysis
+This project explores and visualizes the Social Progress Index (SPI) for countries globally. SPI measures how well countries provide for the social and environmental needs of their citizens, beyond just economic performance.
+
+📦 Dataset Overview
+The dataset (2022) includes:
+SPI scores for 169 countries
+Detailed metrics like:
+Basic Human Needs
+Foundations of Wellbeing
+Opportunity
+Sub-indicators such as: Nutrition, Education, Environment, Rights, etc.
+
+🧰 Tools & Libraries
+Python, Pandas, NumPy
+Plotly, Matplotlib, Seaborn – for interactive and static visualizations
+
+🧪 Key Metrics Tracked
+Social Progress Score
+Basic Human Needs – e.g., nutrition, safety, water, shelter
+Wellbeing – e.g., education, health, environment
+Opportunity – e.g., rights, freedom, inclusiveness
+Each metric is scored out of 100.
+
+📊 Key Insights
+Top Countries (SPI ≥ 85): Norway, Denmark, Finland, Switzerland, Iceland
+Highest SPI: 90.74 (Norway)
+Average SPI: 66.1
+Lowest SPI: 30.65
+
+🌐 Global Visualization
+A choropleth map visualizes the global SPI distribution.
+
+📈 Category-wise Highlights
+Basic Human Needs: Iceland, Japan score highest
+Opportunities: Norway, Denmark, Finland lead
+Nutrition & Medical Care: Finland, Switzerland on top
+
+🗺️ Visualizations Included
+Scatter plots for high-SPI countries across:
+Basic Human Needs
+Opportunities
+Medical and Nutrition Access
+Choropleth map for global SPI comparison
+
+💡 Summary
+This analysis offers a detailed lens on how countries rank in terms of social progress and development. It highlights areas of strength and opportunities for growth in policy and citizen welfare.
