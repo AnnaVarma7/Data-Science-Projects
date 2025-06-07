@@ -1,0 +1,57 @@
+🏏 Virat Kohli ODI Performance Analysis (2008–2017)
+This project analyzes Virat Kohli's performance in One Day International (ODI) matches using data science techniques. It covers detailed insights into his batting positions, runs, strike rate, dismissals, and performances against various teams from 18 August 2008 to 22 January 2017.
+
+📊 Dataset Features
+Runs: Runs scored in the match
+BF: Balls faced
+4s / 6s: Number of boundaries
+SR: Strike rate
+Pos: Batting position
+Dismissal: How he got out
+Inns: First or second innings
+Opposition: Opponent team
+Ground: Venue
+Start Date: Match date
+
+🧰 Tools Used
+Python
+Pandas, NumPy – Data analysis
+Plotly Express / Graph Objects – Interactive visualizations
+
+📈 Key Analyses
+🏏 Career Highlights
+Total Runs Scored: 6,184
+Batting Average: ~46.85 – indicating strong performance
+Performance Trend: Steady growth with frequent 50+ and 100+ scores
+
+📌 Batting Position Insights
+68% of matches at #3
+72% of total runs came from #3
+Optimal batting position: #3
+
+🎯 Centuries Breakdown
+More centuries in second innings → Strong chasing ability
+
+❌ Dismissal Patterns
+Most common: Caught
+Less frequent: LBW, Bowled, Run out
+🇮🇳 Team-wise Stats
+Most Runs: vs Sri Lanka
+Most Centuries: vs Australia
+
+🚀 Strike Rate Analysis
+High SR (120+) more common in first innings
+Aggressive starts when batting first
+
+📈 Shot Type Correlation
+Strong linear relation between runs and fours
+Weak relation between runs and sixes
+Insight: Kohli relies more on placement than power
+
+🧠 Conclusion
+Virat Kohli shows:
+Consistency in scoring
+Strategic aggression while chasing
+Dominance at #3 batting position
+Control-based playstyle favoring boundaries over big hits
+This analysis demonstrates how sports analytics can uncover meaningful patterns in player performance.
