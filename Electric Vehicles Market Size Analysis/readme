@@ -1,1 +1,61 @@
+⚡ Electric Vehicles Market Size Analysis
+This project presents a data-driven analysis of the electric vehicle (EV) market in the United States. It explores EV adoption trends, regional distribution, manufacturer dominance, electric range progression, and forecasts the market size over the next five years.
 
+🎯 Objective
+To analyze the historical and current landscape of EV registrations and estimate future growth using statistical modeling, enabling strategic insights for manufacturers, policymakers, and investors.
+
+🛠️ Tools & Libraries Used
+Python
+Pandas, NumPy – Data handling
+Matplotlib, Seaborn – Visualization
+Scipy – Exponential forecasting
+
+📊 Analysis Breakdown
+1. EV Adoption Over Time
+Steady growth since 2010, with a significant spike post-2016.
+2023 saw the highest EV registrations to date.
+Data confirms increasing consumer confidence and policy-driven adoption.
+
+2. Geographic Distribution
+EV adoption is concentrated in specific counties.
+King County (Seattle, Bellevue, Redmond) leads in registrations.
+Regional imbalance suggests opportunities for EV infrastructure expansion.
+
+3. Electric Vehicle Types
+Battery Electric Vehicles (BEVs) dominate over Plug-in Hybrid Electric Vehicles (PHEVs).
+Indicates a growing preference for fully electric over hybrid alternatives.
+
+4. Popular Makes & Models
+TESLA is the market leader, especially with MODEL Y and MODEL 3.
+NISSAN (LEAF) and CHEVROLET (BOLT, VOLT) are key players.
+Model-level analysis reveals strong consumer preference for long-range, reliable EVs.
+
+5. Electric Range Insights
+The average electric range is ~59 miles, skewed lower by early hybrid models.
+TESLA vehicles offer the highest ranges, led by the ROADSTER and MODEL S.
+Range has consistently improved from 2010 to 2020, addressing range anxiety concerns.
+
+📈 Forecasting EV Market Size (2024–2029)
+Using exponential growth modeling based on registration data up to 2023, here are the estimated annual EV registrations:
+
+Year	Estimated EV Registrations
+2024	79,079
+2025	119,654
+2026	181,047
+2027	273,941
+2028	414,497
+2029	627,171
+
+Key Takeaways:
+Market size is expected to grow nearly 8x by 2029.
+Reflects strong momentum driven by innovation, government incentives, and environmental awareness.
+
+💡 Strategic Implications
+For Manufacturers: Prioritize high-range BEVs and expand offerings in underserved regions.
+For Policymakers: Target infrastructure development in non-urban counties to reduce adoption disparity.
+For Investors: EV market shows exponential potential — a key growth sector in the next decade.
+
+🔮 Future Enhancements
+Integrate global datasets for cross-country comparison.
+Explore EV resale trends and lifespan analytics.
+Build a Streamlit dashboard for real-time insights.
