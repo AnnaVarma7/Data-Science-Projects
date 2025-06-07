@@ -1,0 +1,52 @@
+📉 Price Elasticity of Demand (PED) Analysis using Python
+This project explores how sensitive customer demand is to price changes using real-world retail data. By calculating the Price Elasticity of Demand (PED), we identify optimal pricing strategies to drive revenue and growth.
+
+🎯 Objective
+To analyze the relationship between price changes and quantity demanded, segment products by elasticity, and recommend pricing strategies tailored to consumer sensitivity.
+
+🧰 Tools & Libraries
+Python
+Pandas
+Plotly (Express & Graph Objects)
+
+📁 Dataset
+File: Competition_Data.csv
+Features include:
+Fiscal_Week_ID, Store_ID, Item_ID, Price, Item_Quantity, Sales_Amount, Competition_Price
+
+🧪 Methodology
+1. PED Calculation
+Computed % change in Price and Quantity
+PED = % Change in Quantity / % Change in Price
+
+2. Elasticity Segmentation
+Classified demand into:
+Highly Elastic (PED > 1)
+Negative Elasticity (PED < 0)
+Unitary Elastic
+Zero Elasticity
+
+3. Visual Analysis
+Scatter plot of Price vs Quantity Change
+Segmented visualization of market types
+
+4. Summary Statistics
+Mean PED ≈ -0.46 → suggests generally inelastic demand
+
+Segments:
+Negative Elasticity: 4031 entries
+Highly Elastic: 1740 entries
+Unitary Elastic: 2300 entries
+Zero Elasticity: 163 entries
+
+📈 Key Insights
+Inelastic Demand dominates the dataset, meaning price increases won’t drastically reduce sales.
+Highly Elastic products offer a high opportunity for volume growth via discounting.
+Zero Elasticity products remain unaffected by price — suggest non-price strategies (quality, UX, etc.).
+
+🧠 Strategic Recommendations
+Segment	Strategy
+Highly Elastic	Run targeted discounts or price drops to maximize volume & conversions
+Negative Elasticity	Avoid raising prices; small drops can improve volume significantly
+Unitary Elastic	Keep prices steady; optimize value delivery to maintain balance
+Zero Elasticity	Focus on branding, quality, or bundling; price changes are ineffective
