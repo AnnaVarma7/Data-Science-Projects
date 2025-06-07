@@ -1,0 +1,40 @@
+📉 Unemployment Rate Analysis – India during COVID-19
+This project explores and visualizes unemployment trends across different Indian states and regions using real-world data collected during the COVID-19 pandemic. The goal is to uncover how employment and labor participation varied across geography and time.
+
+📦 Dataset Overview
+Source: Dataset on India’s unemployment during COVID-19
+Columns:
+States
+Date
+Estimated Unemployment Rate (%)
+Estimated Employed
+Estimated Labour Participation Rate (%)
+Region, longitude, latitude
+
+🧰 Tools Used
+Python
+Pandas, NumPy – Data processing
+Matplotlib, Seaborn – Correlation and histogram plots
+Plotly Express – Interactive sunburst dashboard
+
+📊 Analysis Steps
+🧹 Data Cleaning
+Renamed inconsistent columns for clarity
+Checked and verified there were no missing values
+
+📈 Correlation Analysis
+Used heatmaps to examine relationships among unemployment, employment, and participation rates
+
+🌍 Regional Visualization
+Histogram of Estimated Employed by Region
+Histogram of Unemployment Rate by Region
+
+Sunburst Chart: Visualizing unemployment distribution across states within regions
+
+🌞 Key Insights
+Significant variations in unemployment across states during pandemic months
+Some regions consistently saw higher unemployment rates than others
+Visualizations help identify hotspots for policy focus
+
+📌 Summary
+Unemployment is a critical socio-economic indicator, especially during crises like COVID-19. This project showcases how data science can help monitor, visualize, and analyze regional disparities in employment and workforce participation.
