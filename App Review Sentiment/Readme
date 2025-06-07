@@ -1,8 +1,7 @@
-<h1 align="center">📱 App Reviews Sentiment Analysis</h1>
+📱 App Reviews Sentiment Analysis
 
-<p align="center">
   Understand user sentiment using NLP 💬 | Visualize insights 📊 | Improve app experiences 🚀
-</p>
+
 
 
 🔍 About the Project
@@ -44,17 +43,7 @@ This project analyzes user reviews from the LinkedIn mobile app to uncover user 
 
 
 🖼️ Sample Visuals (Can be seen from the images folder)
-<p align="center">
-  <img src="images/Distribution_of_Review_Lengths.jpeg" alt="Distribution of Review Lengths" width="500"/>
-  <br/>
-  <em>Distribution of Review Lengths</em>
-</p>
 
-<p align="center">
-  <img src="images/word_cloud_positive_reviews.jpeg" alt="Word Cloud for Positive Reviews" width="500"/>
-  <br/>
-  <em>Word Cloud for Positive Reviews</em>
-</p>
 💡 How It Works
 
 ```python
