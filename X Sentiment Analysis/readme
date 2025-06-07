@@ -1,0 +1,42 @@
+🧠 Twitter Sentiment Analysis Using Python
+This project performs sentiment analysis on tweets using natural language processing. By analyzing the tone of tweets, it helps identify the general mood—positive, negative, or neutral—of a public discussion.
+
+📦 Dataset Overview
+The dataset contains real tweets (focused on Elon Musk), with the following key fields:
+text: The tweet content
+user_name, user_followers, etc. (used for context but not in sentiment analysis)
+retweets, favorites, is_retweet: Engagement metrics
+
+🧰 Tools & Libraries
+Python, Pandas, NumPy
+NLTK – for text preprocessing and sentiment scoring
+Scikit-learn – for potential future model building
+
+🧹 Data Preprocessing
+✅ Cleaning Steps
+Removed URLs, punctuation, numbers, and stopwords
+Applied stemming using NLTK's SnowballStemmer
+Converted tweets to lowercase
+
+📊 Sentiment Analysis
+Used NLTK's SentimentIntensityAnalyzer (VADER) to generate sentiment scores:
+Positive: Probability of positive sentiment
+Negative: Probability of negative sentiment
+Neutral: Probability of neutral tone
+Tweets were classified by comparing these scores.
+
+📈 Results
+Total sentiment distribution:
+Positive: ~969
+Negative: ~325
+Neutral: ~4584
+
+➕ Insight:
+Although most tweets were neutral, negative tweets outnumbered positive ones, indicating a slightly negative undertone in the discussion.
+
+💡 Summary
+This project demonstrates:
+Text cleaning & NLP preprocessing
+Applying sentiment analysis using VADER
+Aggregating scores to interpret the public mood
+Use-case relevance for social media monitoring and hate speech detection
