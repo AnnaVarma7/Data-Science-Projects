@@ -1,0 +1,59 @@
+🔍 Search Queries Anomaly Detection
+This project focuses on detecting anomalies in search query performance metrics to identify unusual trends, optimization opportunities, or potential issues. By analyzing metrics like Clicks, Impressions, CTR (Click-Through Rate), and Position, we flag queries that behave significantly differently from the rest.
+
+🎯 Objective
+To build a robust system that can:
+Identify abnormal search queries based on performance
+Reveal underperforming or overperforming keywords
+Provide insights for SEO strategy and content optimization
+
+🛠️ Tools & Libraries
+Python
+Pandas, re, Counter – Data wrangling & text processing
+Plotly – Interactive visualizations
+Scikit-learn – Anomaly detection using Isolation Forest
+
+📊 Key Features & Metrics
+Each search query in the dataset includes:
+Top queries: The actual user search term
+Clicks: Number of clicks received
+Impressions: Number of times the result appeared
+CTR: Click-through rate (converted to float)
+Position: Average ranking position
+
+📈 Exploratory Analysis
+Most common words: Extracted top 20 words across queries
+Top-performing queries: Visualized by Clicks and Impressions
+CTR extremes: Identified queries with the highest and lowest CTR
+Correlation analysis: Explored relationships between CTR, Position, Clicks, and Impressions
+
+⚠️ Anomaly Detection
+Method:
+Used Isolation Forest, an unsupervised model that isolates anomalies by randomly selecting features and splitting values.
+
+Input Features:
+Clicks
+Impressions
+CTR
+Position
+
+Output:
+Flagged 1% of the dataset as anomalies (anomaly = -1), including queries with:
+Unusually high CTR and low impressions
+Unexpectedly low CTR despite high impressions
+Very high positions (ranking worse) but still high clicks
+
+These outliers may indicate:
+Emerging trends or niche interests
+Technical issues affecting impressions
+Exceptional content or SEO performance
+
+📌 Key Insights
+Strong negative correlation between CTR and Position (better rank = higher CTR)
+Queries like "number guessing game python" and "the clever programmer" performed significantly above average
+Outliers can represent growth opportunities or optimization gaps
+
+🔮 Future Enhancements
+Integrate time-based analysis (weekly/monthly anomaly trends)
+Use more advanced models like Autoencoders for anomaly detection
+Build a dashboard to visualize real-time anomalies
