@@ -1,0 +1,36 @@
+🌍 Language Detection with Python
+This project demonstrates how to build a simple yet powerful language detection tool using the langdetect library in Python. With support for over 55 languages, the tool allows users to input any text and returns the detected language code.
+
+🎯 Objective
+To detect the language of a given text input using a pre-trained model from the langdetect library in Python.
+
+⚙️ Technologies Used
+Python
+langdetect – Lightweight language detection library based on Google's language-detection algorithm
+input() – For dynamic user interaction
+
+🔌 Installation
+pip install langdetect
+
+🧪 How It Works
+from langdetect import detect
+
+text = input("Enter any text in any language: ")
+print(detect(text))
+Takes user input
+Detects the language using detect(text)
+Returns a 2-letter ISO 639-1 language code
+
+Example: 'fr' for French, 'en' for English, 'es' for Spanish
+
+📝 Example Output
+Input:
+Salut, je suis Anna Varma, j'espère que vous allez très bien.
+
+Output:
+fr
+
+📌 Notes
+langdetect can detect over 55 languages.
+It may not be 100% accurate for short or ambiguous text.
+For more consistent results, use longer and grammatically correct sentences.
