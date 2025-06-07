@@ -1,0 +1,62 @@
+🌟 Youth Career Aspirations Survey Analysis (Gen Z)
+This project analyzes responses from a career aspirations survey focused on Gen Z. The dataset includes responses about their career goals, education preferences, values, work environments, and leadership expectations.
+
+📦 Dataset Overview
+The dataset contains responses from Gen Z individuals with answers to career-related questions, including:
+Career influences
+Education preferences
+Work environment expectations
+Preferred employers and managers
+Attitudes toward company mission and social impact
+
+🧰 Tools & Libraries
+Python, Pandas, NumPy
+Plotly – for interactive visualizations
+Plotly Graph Objects – for pie charts and breakdowns
+
+📊 Key Survey Insights
+🌍 Country Distribution
+98.3% of respondents are based in India
+
+🎯 Career Influences
+Top influences include parents (33.6%), global changemakers, and LinkedIn
+
+🎓 Higher Education Plans
+46.8% would self-fund overseas education
+25.5% would only go abroad if funded by someone else
+
+🏢 Work Commitment
+59.1% would stay >3 years at one company if it’s the right fit
+33.6% are open to long-term roles unconditionally
+
+🚩 Company Mission Alignment
+66.8% wouldn’t work for a company without a clear mission
+67.2% reject companies with misaligned missions and actions
+
+Gen Z cares about social impact – most rated low likelihood to work without it
+
+💼 Preferred Work Environments
+25.5% prefer fully remote + travel flexibility
+24.3% prefer hybrid
+Only 21.3% are okay with everyday office work
+
+🧑‍💻 Ideal Employers
+48.1% want employers that push limits and reward learning
+Others favor appreciation for learning or a nurturing environment
+
+📚 Learning Preferences
+Top picks include:
+Self-paced portals + instructor-led sessions
+Trial-and-error learning and peer observation
+
+👨‍💼 Ideal Managers
+Majority want managers who:
+Clearly explain expectations
+Set goals
+Support their team’s success
+
+💡 Summary
+This project provides deep insights into what Gen Z values in their careers, employers, and growth environments. The findings can guide:
+Recruiters to design better job offers
+Companies to align culture and values
+Policymakers in youth career development initiatives
