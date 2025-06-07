@@ -1,0 +1,53 @@
+📈 Multivariate Time Series Forecasting using Python
+This project demonstrates how to perform multivariate time series forecasting on stock market data using Vector AutoRegression (VAR). The goal is to capture interdependencies between multiple variables (stock prices) and forecast their future values.
+
+🎯 Objective
+To forecast the future closing prices of multiple stocks (AAPL, MSFT, NFLX, GOOG) by leveraging their historical relationships and interactions over time.
+
+🧰 Tools & Libraries
+Python
+pandas, matplotlib – Data wrangling and visualization
+statsmodels – VAR modeling and stationarity testing
+ADF Test – To check for time series stationarity
+
+📁 Dataset
+Source: stocks.csv
+Stocks: Apple (AAPL), Microsoft (MSFT), Netflix (NFLX), Google (GOOG)
+Time Range: Feb 7, 2023 – May 5, 2023
+Features: Date, Open, High, Low, Close, Adj Close, Volume
+
+🔄 Key Steps
+1. Data Preparation
+Converted Date to datetime format
+Verified absence of missing values
+Differenced the Close prices to make them stationary
+
+2. Stationarity Check
+Applied Augmented Dickey-Fuller Test to confirm non-stationarity
+Differenced the series and re-tested; all series became stationary (p-value < 0.05)
+
+3. Model Training & Forecasting
+Pivoted data by date and ticker
+Trained VAR model using optimal lag (based on AIC)
+Forecasted next 5 days of differenced values
+Reversed differencing to restore forecasted values to original scale
+
+4. Forecast Output
+Example:
+
+Date	AAPL	GOOG	MSFT	NFLX
+2023-05-06	174.37	113.62	320.18	327.60
+2023-05-07	169.68	104.91	318.41	342.70
+...	...	...	...	...
+
+5. Visualization
+Plotted historical vs. forecasted closing prices for each stock
+Used dashed lines for forecasted data to distinguish trends
+
+🧠 Insights
+VAR effectively models interdependencies across multiple stock prices.
+Differencing was essential to meet stationarity requirements.
+The model captured short-term patterns despite limited historical data.
+
+📝 Summary
+Multivariate Time Series Forecasting using Python enables predictive modeling for multiple related time series. This project showed how stock closing prices can be forecasted simultaneously using a VAR model, with proper data preparation, stationarity enforcement, and interpretation of results.
