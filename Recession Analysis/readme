@@ -1,0 +1,46 @@
+📉 Recession Analysis (UK GDP)
+This project analyzes recession periods in the UK economy based on monthly and quarterly GDP growth data. It detects recession periods and evaluates their severity using historical trends.
+
+🎯 Objective
+Identify periods of recession using GDP contraction over consecutive quarters
+Visualize GDP trends and recession severity over time
+Understand economic contraction patterns to aid in macroeconomic insights
+
+🧰 Tools & Libraries
+Python
+Pandas – Data preprocessing & resampling
+Plotly – Interactive data visualizations
+
+📁 Dataset Overview
+Source: UK Monthly GDP Growth Rates
+Columns:
+Time Period: Month and year
+
+GDP Growth: Monthly GDP growth rate (%)
+
+🧪 Steps Followed
+1. Data Preprocessing
+Parsed date strings and converted the dataset to a time-indexed DataFrame
+Resampled monthly GDP data to quarterly averages
+
+2. Recession Detection
+Recession defined as two consecutive quarters of negative GDP growth
+Binary flag created to label each quarter as recession or not
+
+3. Visual Analysis
+Heatmap of monthly GDP growth
+Line graph showing GDP growth over time with recession periods marked in red
+
+Bar chart visualizing:
+Duration of each recession period
+Severity (sum of negative GDP growth during recession)
+
+📊 Key Insights
+Q1 and Q2 of 2020 mark a significant recession with sharp GDP contraction due to COVID-19
+Recession detection logic works effectively with time-series resampling
+Severity analysis quantifies both duration and depth of each economic downturn
+
+💡 Future Enhancements
+Include other indicators: Unemployment Rate, Consumer Spending, CPI
+Build a recession prediction model using machine learning
+Add interactive filters for time range and severity levels in dashboards
