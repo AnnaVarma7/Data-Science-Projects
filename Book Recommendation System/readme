@@ -16,16 +16,16 @@ Top Authors by Number of Books
 
 
 🧠 How It Works
-Data Preprocessing
-Loaded a dataset of 11,000+ books.
-Cleaned and converted data types (e.g., average ratings).
-Feature Engineering
-Combined title and authors into a single text feature (book_content).
-TF-IDF Vectorization
-Transformed the text into numeric form using TfidfVectorizer.
-Similarity Calculation
-Calculated pairwise cosine similarity between books.
-Recommendation Function
+- Data Preprocessing
+- Loaded a dataset of 11,000+ books.
+- Cleaned and converted data types (e.g., average ratings).
+- Feature Engineering
+-Combined title and authors into a single text feature (book_content).
+- TF-IDF Vectorization
+- Transformed the text into numeric form using TfidfVectorizer.
+- Similarity Calculation
+- Calculated pairwise cosine similarity between books.
+- Recommendation Function
 
 Built a function recommend_books() that:
 Finds books similar to the given title.
