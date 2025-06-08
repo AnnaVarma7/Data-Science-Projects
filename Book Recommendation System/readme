@@ -20,7 +20,7 @@ Top Authors by Number of Books
 - Loaded a dataset of 11,000+ books.
 - Cleaned and converted data types (e.g., average ratings).
 - Feature Engineering
--Combined title and authors into a single text feature (book_content).
+- Combined title and authors into a single text feature (book_content).
 - TF-IDF Vectorization
 - Transformed the text into numeric form using TfidfVectorizer.
 - Similarity Calculation
